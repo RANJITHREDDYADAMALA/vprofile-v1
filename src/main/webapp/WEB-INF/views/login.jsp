@@ -74,9 +74,9 @@
         <h2 class="form-heading" align="center"> ...MADHU BABU... </h2>
         <div class="form-group ${error != null ? 'has-error' : ''}">
             <span>${message}</span>
-            <input name="username" type="text" class="form-control" placeholder="Username"
+            <input name="username" type="text" class="form-control" placeholder="MADHU"
                    autofocus="true"/>
-            <input name="password" type="password" class="form-control" placeholder="Password"/>
+            <input name="password" type="password" class="form-control" placeholder="BABU"/>
             <span>${error}</span>
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 
